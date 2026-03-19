@@ -8,20 +8,20 @@ This project trains a DCGAN to generate wallpaper-style images from a paintings 
 
 ## Sample Images
 
-### Original Image
-![Original Image](images/original.png)
+### Image Grid at 110th epoch
+![110th epoch](generated-output-epoch-110.png)
 
-### Upscaled Image
-![Upscaled Image](images/upscaled.png)
-
-## Side-by-Side Comparison
-
+### Single Samples
 <p align="center">
-  <img src="images/original.png" alt="Original Image" width="300"/>
-  <img src="images/upscaled.png" alt="Upscaled Image" width="300"/>
+  <img src="./sampleOutput.png" alt="sample output 1" width="300"/>
+  <img src="./sampleOutput2.png" alt="sample output 2" width="300"/>
 </p>
 
-## Description
+## Side-by-Side Comparison of Upscaling
 
-- The first image is the original output.
-- The second image is the enhanced/upscaled version.
+<p align="center">
+  <img src="upscalingComparison.png" alt="Original Image" width="600"/>
+  <br>
+  <img src="upscalingComparison2.png" alt="Upscaled Image" width="600"/>
+</p>
+
